@@ -1,0 +1,25 @@
+* C:\Users\admin\Desktop\yash\IITB\INTFOSSE\INTFOSSE.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 12/18/24 18:49:50
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+M1  Net-_I1-Pad1_ Net-_I1-Pad1_ Net-_M1-Pad3_ Net-_M1-Pad3_ eSim_MOS_N		
+M7  Vout Net-_I1-Pad1_ Net-_M1-Pad3_ Net-_M1-Pad3_ eSim_MOS_N		
+M2  Net-_M2-Pad1_ Vin- Net-_M2-Pad3_ Net-_M2-Pad3_ eSim_MOS_N		
+M4  Net-_M2-Pad3_ Net-_I1-Pad1_ Net-_M1-Pad3_ Net-_M1-Pad3_ eSim_MOS_N		
+M6  Net-_C1-Pad1_ Vin+ Net-_M2-Pad3_ Net-_M2-Pad3_ eSim_MOS_N		
+M8  Net-_I1-Pad2_ Net-_C1-Pad1_ Vout Vout eSim_MOS_P		
+M3  Net-_I1-Pad2_ Net-_M2-Pad1_ Net-_M2-Pad1_ Net-_M2-Pad1_ eSim_MOS_P		
+M5  Net-_I1-Pad2_ Net-_M2-Pad1_ Net-_C1-Pad1_ Net-_C1-Pad1_ eSim_MOS_P		
+C2  Vout GND 10pF		
+C1  Net-_C1-Pad1_ Vout 3pF		
+I1  Net-_I1-Pad1_ Net-_I1-Pad2_ dc		
+v3  GND Net-_I1-Pad2_ DC		
+v2  Net-_M1-Pad3_ GND DC		
+v4  Vin+ GND sine		
+v1  Vin- GND sine		
+
+.end
