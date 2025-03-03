@@ -16,30 +16,26 @@ A two-stage OTA typically consists of two cascaded amplifier stages. The first s
 ![image](https://github.com/user-attachments/assets/90a67760-f746-469b-a963-e4aed0c3109b)
 
 
+
+
 ***
 
 ## [Simulation results](https://github.com/YashEkhande04/2Stage-OTA/tree/d77d9c57111b1ab518d4f750ed19980130c85e78/Sim%20Result%20images)
 
 ***
 
-![TRANSIENT ANALYSIS](https://github.com/user-attachments/assets/7584a7e9-9109-49d6-b4f4-a2accd4c1f64)
+![image](https://github.com/user-attachments/assets/74a7361c-5784-4d57-baa1-420c6fa6c011)
 
 
-* This graph represents the transient analysis of a two-stage Operational Transconductance Amplifier (OTA). It showcases a rising voltage pattern characterized by distinct steps and periodic variations, reflecting the dynamic signal processing behavior of the OTA.
 
-* Each step in the graph corresponds to a transient event, where the OTA transitions to a new voltage level in response to changes in the input signal. The periodic sharp transitions highlight the OTA's slew rate, demonstrating its capability to handle rapid input variations effectively. Meanwhile, the smooth rise between the steps illustrates the combined effects of the gain stages and the compensation network, ensuring stability and controlled signal amplification.
+![image](https://github.com/user-attachments/assets/2c971c78-c634-4783-9de7-28957d91228f)
 
-* This analysis provides valuable insights into the OTA's performance, emphasizing its ability to manage both fast transitions and gradual signal changes seamlessly
 
-![DC analysis](https://github.com/user-attachments/assets/aa757535-4c6f-492f-a916-9fec129eaf40)
 
-* The DC transfer characteristic of the two-stage OTA shows a linear relationship between input and output voltages.
-* The observed DC gain is approximately 1, which is lower than the expected high gain for typical two-stage OTAs.
-* Possible causes for the low gain:
-* Improper biasing.
-* Insufficient gain from the first stage.
-* Limitations in the design of the second stage.
-* To achieve the expected high gain, further optimization of biasing, transistor sizing, and load resistance is needed.
+* The transient analysis of a 2-stage Operational Transconductance Amplifier (OTA) provides insights into its dynamic response to time-varying input signals. The waveform obtained suggests a periodic switching behavior, which may indicate oscillations, slewing limitations, or instability in the circuit. In a 2-stage OTA, the first stage provides high gain and differential amplification, while the second stage enhances output swing and drives the load. The transient response is influenced by factors such as compensation techniques (Miller capacitance), biasing conditions, and feedback mechanisms. The observed irregularities in the waveform could result from insufficient phase margin, improper pole- zero placement, or parasitic effects.
+
+
+
 
 ## **Working**
 
